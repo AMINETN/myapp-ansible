@@ -1,6 +1,6 @@
 ---
 - hosts: web-servers
-  remote_user: root
+  remote_user: ansadmin
   become: True
   tasks:
   - name: Install packages
