@@ -1,6 +1,5 @@
 ---
 - hosts: web-servers
-  remote_user: root
   become: True
   tasks:
   - name: Install packages
